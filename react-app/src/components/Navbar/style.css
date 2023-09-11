@@ -1,46 +1,38 @@
 .navbar {
-    align-items: center;
-    display: inline-flex;
-    gap: 101px;
-    position: relative;
-  }
-  
-  .navbar .image {
-    height: 135px;
-    object-fit: cover;
-    position: relative;
-    width: 326px;
-  }
-  
-  .navbar .div {
-    color: #ffffff;
-    font-family: "Readex Pro", Helvetica;
-    font-size: 25px;
-    font-weight: 400;
-    height: 32px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    text-align: center;
-    width: 133px;
-  }
-  
-  .navbar .text-wrapper-2 {
-    color: #ffffff;
-    font-family: "Readex Pro", Helvetica;
-    font-size: 25px;
-    font-weight: 400;
-    height: 32px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    text-align: center;
-    width: 296px;
-  }
-  
-  .navbar .search-icon {
-    height: 45px;
-    object-fit: cover;
-    position: relative;
-    width: 50px;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; /* Adicione a cor de fundo desejada */
+  color: #fff; /* Adicione a cor de texto desejada */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Adicione o espaçamento desejado */
+  z-index: 999; /* Certifique-se de que o Navbar esteja acima de outros elementos */
+}
+
+.navbar .image {
+  height: 135px;
+  object-fit: cover;
+  width: 326px;
+}
+
+.navbar .div,
+.navbar .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Readex Pro", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 133px;
+}
+
+.navbar .search-icon {
+  height: 45px;
+  object-fit: cover;
+  width: 40px;
+}
