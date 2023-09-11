@@ -1,0 +1,46 @@
+.navbar {
+    align-items: center;
+    display: inline-flex;
+    gap: 101px;
+    position: relative;
+  }
+  
+  .navbar .image {
+    height: 135px;
+    object-fit: cover;
+    position: relative;
+    width: 326px;
+  }
+  
+  .navbar .div {
+    color: #ffffff;
+    font-family: "Readex Pro", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    height: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: 133px;
+  }
+  
+  .navbar .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Readex Pro", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    height: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: 296px;
+  }
+  
+  .navbar .search-icon {
+    height: 45px;
+    object-fit: cover;
+    position: relative;
+    width: 50px;
+  }
