@@ -18,7 +18,7 @@
   width: 326px;
 }
 
-.navbar .text-wrapper-2 {
+.navbar .links {
   color: #ffffff;
   font-family: "Readex Pro", Helvetica;
   font-size: 25px;
@@ -28,6 +28,11 @@
   line-height: normal;
   text-align: center;
   width: 133px;
+}
+
+.navbar .links:hover {
+  color: rgb(148, 145, 145);
+  transition: 0.3s;
 }
 
 .navbar .search-icon {

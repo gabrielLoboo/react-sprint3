@@ -10,9 +10,9 @@ export default function Navbar() {
             <img className="image" alt="Image" src={bikeLogo} />
            
               
-              <Link to="/"><a href="" className="text-wrapper-2">Home</a></Link>
-              <Link to="/servicos"><a href="" className="text-wrapper-2">Serviços</a></Link>
-              <Link to="/integrantes"><a href="" className="text-wrapper-2">Nossos Integrantes</a></Link>
+              <Link to="/"><a href="" className="links">Home</a></Link>
+              <Link to="/servicos"><a href="" className="links">Serviços</a></Link>
+              <Link to="/integrantes"><a href="" className="links">Nossos Integrantes</a></Link>
           
             <a href=""><img className="search-icon" alt="Search Icon" src={sIcon} /></a>
         </div>
