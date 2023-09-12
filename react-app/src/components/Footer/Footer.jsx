@@ -2,6 +2,7 @@ import twitter from '../../assets/twitter.png'
 import instagram from '../../assets/instagram.png'
 import linkedin from '../../assets/linkedin.png'
 import portoLg from '../../assets/portoLogo.png'
+import './style.css'
 
 export default function Footer() {
   return (
@@ -9,9 +10,9 @@ export default function Footer() {
             <img className="portoLogo" alt="Porto Logo" src={portoLg} />
         <p className="text-wrapper">© 2023 Todos os direitos reservados</p>
 
-        <div className="div">Instagram</div>
-        <div className="text-wrapper-2">Linkedin</div>
-        <div className="text-wrapper-3">Twitter</div>
+        <a href="#"><div className="div">Instagram</div></a>
+        <a href="#"><div className="text-wrapper-2">Linkedin</div></a>
+        <a href="#"><div className="text-wrapper-3">Twitter</div></a>
 
         <img className="linkedin" alt="Linkedin" src={linkedin} />
 

@@ -3,6 +3,7 @@
     height: 234px;
     position: relative;
     width: 1434px;
+    display: flex;
   }
   
   .footer .portoLogo {
