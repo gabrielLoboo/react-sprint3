@@ -6,13 +6,15 @@ import './index.css'
 import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import Erro from './routes/Erro/Erro.jsx'
 import Servicos from './routes/Servicos/Servicos.jsx'
+import Integrantes from './routes/Integrantes/Integrantes.jsx';
 
 const router = createBrowserRouter(
   [
     {path : "/", element : <App />, errorElement : <Erro />,
     children: [
       { path: "/servicos" , element : <Servicos />},
-      { path: "/old" , element : <Navigate to = "/" />}      
+      { path: "/old" , element : <Navigate to = "/" />},
+      { path: "/integrantes", element : <Integrantes /> }      
   ]},
   ]
 );
