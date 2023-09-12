@@ -1,5 +1,5 @@
 import background from '../../assets/background.png';
-import portoLogo from '../../assets/portoLogo.png';
+import { Link } from 'react-router-dom';
 
 import './style.css';
 
@@ -12,7 +12,7 @@ export default function Home() {
           
           <p className="text">Proteção que acompanha seu ritmo sobre duas rodas!</p>
 
-          <button className="button-cadastre-se">Cadastre-se</button>
+          <Link to="/cadastro"><button className="button-cadastre-se">Cadastre-se</button></Link>
 
         </div>
       </div>
