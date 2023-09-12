@@ -10,10 +10,10 @@ export default function Footer() {
             <img className="portoLogo" alt="Porto Logo" src={portoLg} />
         <p className="text-wrapper">© 2023 Todos os direitos reservados</p>
 
-        <a href="#"><div className="div">Instagram</div></a>
-        <a href="#"><div className="text-wrapper-2">Linkedin</div></a>
-        <a href="#"><div className="text-wrapper-3">Twitter</div></a>
-
+        <a href="https://www.instagram.com/"><div className="link-footer">Instagram</div></a>
+        <a href="https://www.linkedin.com/"><div className="link-footer-2">Linkedin</div></a>
+        <a href="https://www.x.com/"><div className="link-footer-3">Twitter</div></a>
+    
         <img className="linkedin" alt="Linkedin" src={linkedin} />
 
         <img className="twitter" alt="Twitter" src={twitter} />

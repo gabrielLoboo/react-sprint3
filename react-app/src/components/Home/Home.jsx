@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <div className="index">
         <img src={background} alt="Background Image" className="background" />
-        <div className="content">
+        <div className="content-home">
           
           <p className="text">Proteção que acompanha seu ritmo sobre duas rodas!</p>
 

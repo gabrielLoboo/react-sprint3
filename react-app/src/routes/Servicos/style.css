@@ -1,6 +1,7 @@
 .content {
     height: 534px;
     width: 531px;
+    padding: 100px;
   }
   
   .content .text-group {
@@ -20,8 +21,9 @@
     line-height: normal;
     position: absolute;
     text-align: right;
-    top: 0;
+    top: -100px;
     width: 531px;
+    text-align: left;
   }
   
   .content .text-2 {
@@ -36,5 +38,6 @@
     position: absolute;
     top: 149px;
     width: 462px;
+    text-align: left;
   }
   

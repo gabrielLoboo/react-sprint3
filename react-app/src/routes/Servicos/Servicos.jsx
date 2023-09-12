@@ -1,4 +1,4 @@
-
+import './style.css'
 
 export default function Servicos() {
   return (
@@ -11,7 +11,7 @@ export default function Servicos() {
         </p>
       </div>
 
-      <button className="button-duvidas">Duvidas</button>
+      
     </div>
   )
 }

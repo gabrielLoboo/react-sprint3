@@ -1,9 +1,10 @@
+import './style.css'
 
 export default function Integrantes() {
 
 
   return (
-    <ul>
+    <ul className='listIntegrantes'>
         <li>Gabriel Francisco Lobo | RM99708</li>
         <li>Juan Godoy | RM551408</li>
         <li>Kayque Lima Nunes | RM550782</li>
