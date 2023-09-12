@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import Erro from './routes/Erro/Erro.jsx'
 import Servicos from './routes/Servicos/Servicos.jsx'
 import Integrantes from './routes/Integrantes/Integrantes.jsx';
+import Cadastro from './routes/Cadastro/Cadastro.jsx';
 
 const router = createBrowserRouter(
   [
@@ -14,7 +15,8 @@ const router = createBrowserRouter(
     children: [
       { path: "/servicos" , element : <Servicos />},
       { path: "/old" , element : <Navigate to = "/" />},
-      { path: "/integrantes", element : <Integrantes /> }      
+      { path: "/integrantes", element : <Integrantes /> },
+      { path: "/cadastro", element : <Cadastro /> }      
   ]},
   ]
 );
